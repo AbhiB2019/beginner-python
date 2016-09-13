@@ -31,15 +31,35 @@ return str - rts
 ###You can create expressions with if statements like so:
 
 if x == 123
-	return True
+```
+    return True
 
 if str[0:13] == "Josh is bronze"
-	return False
+```
+    return False
+```
 if a[0] == 3
-	return True
+```
+    return True
 
-	
-"git clone -
-git add
-git push
+###Branches are related lines of code:
 
+if str[0: 4] == 13
+```
+    return True
+```
+The return true part of this line of code is a branch.
+
+##Functions
+
+##You define a function like so:
+```
+def func(a,b):
+```
+The "func" part is the name of the function. The "a, b" part are the parameters. Once you define the function, the parameters are the variables you enter into the function to recieve an output. For example:
+```
+def func(a, b):
+    return a + b
+print func(1, 3)
+```
+When you run this function, it will return 4, since you defined the function to output the sum of the 2 numbers inputted.
